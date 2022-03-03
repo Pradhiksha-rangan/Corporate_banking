@@ -15,7 +15,7 @@ class CustomerDetails extends Component {
     }
 
     changeHandler = (e) => {
-        // this.setState({Id:e.target.value});
+
     }
     onCreateCustomer = () => {
         console.log(this.state.Id);
