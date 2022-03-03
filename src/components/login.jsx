@@ -4,7 +4,6 @@ export default class Login extends Component {
         return (
             <form className="container" style={{ width: "30%" }}>
                 <h3>Log In</h3>
-                <h2>hello</h2>
                 <div className="form-group">
                     <label>Email address</label>
                     <input type="email" className="form-control" placeholder="Enter email" />
