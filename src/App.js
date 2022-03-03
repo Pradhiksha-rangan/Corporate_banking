@@ -5,7 +5,7 @@ import { CustomerDetails } from './components/customer';
 import { AccManagement} from './components/accmanagement';
 import { Login } from './components/login';
 import { SignUp } from './components/signup';
-import { Invoice } from './components/invoice';
+import  Invoice  from './components/invoice';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';

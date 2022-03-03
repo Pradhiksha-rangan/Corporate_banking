@@ -1,15 +1,15 @@
 import {useState} from "react";
-import Footer from "./components/Footer";
-import Notes from "./components/Notes";
-import Table from "./components/Table";
-import Header from "./components/Header";
-import MainDetails from "./components/MainDetails";
-import ClientDetails from "./components/ClientDetails";
-import Dates from "./components/Dates";
-import TableForm from "./components/TableForm";
+import Footer from "./Footer";
+import Notes from "./Notes";
+import Table from "./Table";
+import Header from "./Header";
+import MainDetails from "./MainDetails";
+import ClientDetails from "./ClientDetails";
+import Dates from "./Dates";
+import TableForm from "./TableForm";
 
 
-function App() {
+function Invoice() {
   const [showInvoice,setShowInvoice]=useState(false)
   const [name,setName]=useState("")
   const [address,setAddress]=useState("")
@@ -266,4 +266,4 @@ function App() {
   );
 }
 
-export default App;
+export default Invoice;
