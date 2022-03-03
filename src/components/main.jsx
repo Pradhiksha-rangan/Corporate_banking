@@ -7,12 +7,12 @@ class Main extends Component {
             <div >
                 <h1>Silver Coin Banking</h1>
                 <h2>Welcome!</h2>
-                <a href="\salarypayment">Salary Payment</a>
-                <a href="\customer">Customer Details</a>
-                <a href="\accmanagement">Account Management</a>
-                <a href="\login">Login</a>
-                <a href="\signup">Signup</a>
-                <a href="\invoice">Invoice</a>
+                <a href="\salarypayment">Salary Payment</a>|
+                <a href="\customer">Customer Details</a>|
+                <a href="\accmanagement">Account Management</a>|
+                <a href="\login">Login</a>|
+                <a href="\signup">Signup</a>|
+                <a href="\invoice">Invoice</a>|
                 
                 <img src={images} style={{
                     backgroundImage: `url(${images})`,
