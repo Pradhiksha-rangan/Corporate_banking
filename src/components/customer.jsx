@@ -31,7 +31,7 @@ class CustomerDetails extends Component {
                         <label>Customer ID:<input type="text" name="Id" value={this.state.customer.Id} onChange={this.changeHandler} /></label>
                     </p>
                     <p>
-                        <label>Name:<input type="text" name="Id" value={this.state.customer.Name} onChange={this.changeHandler} /></label>
+                        <label>Name:<input type="text" name="Name" value={this.state.customer.Name} onChange={this.changeHandler} /></label>
                     </p>
                     <p>
                         <label>Address:<input type="text" name="address" value={this.state.customer.Address} onChange={this.changeHandler} /></label>
