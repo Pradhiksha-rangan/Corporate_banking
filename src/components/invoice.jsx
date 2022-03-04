@@ -246,7 +246,7 @@ function Invoice() {
          id="notes"
          cols="30"
          rows="10"
-         placeholder="Additional Notes"
+         placeholder="Additional Notes Here"
          value={notes}
            onChange={(e)=>setNotes(e.target.value)}>
          </textarea>
