@@ -7,8 +7,6 @@ import MainDetails from "./MainDetails";
 import ClientDetails from "./ClientDetails";
 import Dates from "./Dates";
 import TableForm from "./TableForm";
-
-
 function Invoice() {
   const [showInvoice,setShowInvoice]=useState(false)
   const [name,setName]=useState("")
