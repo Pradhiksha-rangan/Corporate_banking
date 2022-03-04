@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+>>>>>>head
 import React, { Component, useEffect, useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
@@ -116,7 +116,7 @@ function SignUp() {
             </Form>
         </div>
     );
-=======
+
 import React, { Component } from "react";
 export default class SignUp extends Component {
     render() {
