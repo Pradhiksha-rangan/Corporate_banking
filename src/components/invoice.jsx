@@ -73,7 +73,7 @@ function Invoice() {
          <div className="flex flex-col justify-center">
            <article className="md:grid grid-cols-2 gap-10">
         <div className="flex flex-col">
-        <label htmlFor="name">Enter your name</label>
+        <label htmlFor="name">Enter your Name</label>
         <input 
          type="text" 
          name="text" 
@@ -123,7 +123,7 @@ function Invoice() {
          />
          </div>
          <div className="flex flex-col">
-         <label htmlFor="phone">Enter your phone</label>
+         <label htmlFor="phone">Enter your phone Number</label>
         <input 
          type="text" 
          name="phone" 
@@ -137,7 +137,7 @@ function Invoice() {
          </article>
          <article className="md:grid grid-cols-2 gap-10">
          <div className="flex flex-col">
-         <label htmlFor="bankName">Enter your bankName</label>
+         <label htmlFor="bankName">Enter your BankName</label>
         <input 
          type="text" 
          name="bankName" 
@@ -149,7 +149,7 @@ function Invoice() {
          />
          </div>
          <div className="flex flex-col">
-         <label htmlFor="bankAccount">Enter your bankAccount</label>
+         <label htmlFor="bankAccount">Enter your BankAccount</label>
         <input 
          type="text" 
          name="bankAccount" 
@@ -214,7 +214,7 @@ function Invoice() {
          />
          </div>
          <div className="flex flex-col">
-         <label htmlFor="dueDate">dueDate</label>
+         <label htmlFor="dueDate">DueDate</label>
         <input 
          type="date" 
          name="dueDate" 
