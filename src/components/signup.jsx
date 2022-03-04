@@ -20,6 +20,10 @@ export default class SignUp extends Component {
                     < label className="main-text">Password</label>
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
+                <div className="form-group">
+                    < label className="main-text">Confirm Password</label>
+                    <input type="confirmpassword" className="form-control" placeholder="Enter password again" />
+                </div>
                 <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
                     Already registered <a href="/#">Log in?</a>
