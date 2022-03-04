@@ -212,7 +212,7 @@ function Invoice() {
          />
          </div>
          <div className="flex flex-col">
-         <label htmlFor="dueDate">DueDate</label>
+         <label htmlFor="dueDate">Due Date</label>
         <input 
          type="date" 
          name="dueDate" 
