@@ -20,6 +20,22 @@ export default class SignUp extends Component {
                     < label className="main-text">Password</label>
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
+                <div className="form-group">
+                    < label className="main-text">Confirm Password</label>
+                    <input type="password" className="form-control" placeholder="Enter password again" />
+                </div>
+                <div className="form-group">
+                    < label className="main-text">DOB</label>
+                    <input type="date" className="form-control" placeholder="dd-mm-yyyy" />
+                </div>
+                <div className="form-group">
+                    < label className="main-text">Address</label>
+                    <input type="text" className="form-control" placeholder="Your Address" />
+                </div>
+                <div className="form-group">
+                    < label className="main-text">Mobile number</label>
+                    <input type="tel" className="form-control" placeholder="Mobile number" />
+                </div>
                 <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
                     Already registered <a href="/#">Log in?</a>
