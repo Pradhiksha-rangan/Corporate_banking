@@ -3,6 +3,17 @@ div {
     no-repeat
     cover;
 }
+
+a{
+  margin-left: 50px;
+}
+
+
+.bg-img {
+  height: 100vh;
+  background: url("./images/mainbg.jpg");
+}
+
 .login-wrapper {
   display: flex;
   flex-direction: column;
@@ -20,6 +31,7 @@ div {
 .main{
   text-align: center;
   font-weight: bolder;
+  
 }
 .main-text{
   font-size: large;
