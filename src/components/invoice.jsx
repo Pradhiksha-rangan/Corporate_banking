@@ -78,7 +78,7 @@ function Invoice() {
          type="text" 
          name="text" 
          id="name"
-         placeholder="enter your name"
+         placeholder="Enter your name"
          autoComplete="off"
          value={name}
          onChange={(e)=>setName(e.target.value)}
@@ -90,7 +90,7 @@ function Invoice() {
          type="text" 
          name="address" 
          id="address"
-         placeholder="enter your address"
+         placeholder="Enter your address"
          autoComplete="off"
          value={address}
          onChange={(e)=>setAddress(e.target.value)}
@@ -104,7 +104,7 @@ function Invoice() {
          type="email" 
          name="email" 
          id="email"
-         placeholder="enter your mail"
+         placeholder="Enter your mail"
          autoComplete="off"
          value={email}
          onChange={(e)=>setEmail(e.target.value)}
@@ -116,7 +116,7 @@ function Invoice() {
          type="url" 
          name="website" 
          id="website"
-         placeholder="enter your website"
+         placeholder="Enter your website"
          autoComplete="off"
          value={website}
          onChange={(e)=>setWebsite(e.target.value)}
@@ -128,7 +128,7 @@ function Invoice() {
          type="text" 
          name="phone" 
          id="phone"
-         placeholder="enter your phone"
+         placeholder="Enter your phone"
          autoComplete="off"
          value={phone}
          onChange={(e)=>setPhone(e.target.value)}
@@ -142,7 +142,7 @@ function Invoice() {
          type="text" 
          name="bankName" 
          id="bankName"
-         placeholder="enter your bankName"
+         placeholder="Enter your bankName"
          autoComplete="off"
          value={bankName}
          onChange={(e)=>setBankName(e.target.value)}
@@ -154,7 +154,7 @@ function Invoice() {
          type="text" 
          name="bankAccount" 
          id="bankAccount"
-         placeholder="enter your bankAccount"
+         placeholder="Enter your bankAccount"
          autoComplete="off"
          value={bankAccount}
          onChange={(e)=>setBankAccount(e.target.value)}
@@ -169,7 +169,7 @@ function Invoice() {
          type="text" 
          name="clientName" 
          id="clientName"
-         placeholder="enter your clientName"
+         placeholder="Enter your clientName"
          autoComplete="off"
          value={clientName}
          onChange={(e)=>setClientName(e.target.value)}
@@ -181,7 +181,7 @@ function Invoice() {
          type="text" 
          name="clientAddress" 
          id="clientAddress"
-         placeholder="enter your clientAddress"
+         placeholder="Enter your clientAddress"
          autoComplete="off"
          value={clientAddress}
          onChange={(e)=>setClientAddress(e.target.value)}
