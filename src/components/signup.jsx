@@ -22,7 +22,11 @@ export default class SignUp extends Component {
                 </div>
                 <div className="form-group">
                     < label className="main-text">Confirm Password</label>
-                    <input type="confirmpassword" className="form-control" placeholder="Enter password again" />
+                    <input type="password" className="form-control" placeholder="Enter password again" />
+                </div>
+                <div className="form-group">
+                    < label className="main-text">DOB</label>
+                    <input type="date" className="form-control" placeholder="dd-mm-yyyy" />
                 </div>
                 <div className="form-group">
                     < label className="main-text">Address</label>
