@@ -12,10 +12,10 @@ class AccManagement extends Component {
                     <input type="text" placeholder='' />
                     <label>Branch: </label>
                     <input type="text" placeholder='' />
-                    <input type="submit" />
                     <label>Balance: </label>
                     <input type="text" placeholder='' />
-
+                    <input type="submit" />
+                    
                     <div style={{ backgroundColor: 'ButtonHighlight' }}><h1>Transaction Details</h1></div>
                     <label>Account: </label><br />
                     <input type="text" placeholder='' />
