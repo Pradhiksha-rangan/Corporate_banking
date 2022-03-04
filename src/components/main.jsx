@@ -8,7 +8,7 @@ class Main extends Component {
                 <div className="main">
                     <h1 className="display-1">Silver Coin Banking</h1>
                     <div className="text-center">
-                        <h2 className="lead">Welcome!</h2></div>
+                        <h1 className="lead">Welcome!</h1></div>
                     <a className="btn btn-primary" href="/salarypayment">Salary</a>
                     <a className="btn btn-secondary" href="/customer" >Customer Details</a>
                     <a className="btn btn-success" href="/accmanagement">Account Management</a>
