@@ -12,9 +12,10 @@ class Main extends Component {
                     <a className="btn btn-primary" href="/salarypayment">Salary</a>
                     <a className="btn btn-secondary" href="/customer" >Customer Details</a>
                     <a className="btn btn-success" href="/accmanagement">Account Management</a>
+                    <a className="btn btn-info" href="\invoice">Invoice</a>
                     <a class="btn btn-light" href="/login">Login</a>
                     <a className="btn btn-warning" href="\signup"   >Signup</a>
-                    <a className="btn btn-info" href="\invoice">Invoice</a>
+                   
                     {/* <a class="btn btn-primary" href="\salarypayment">Salary Payment</a>
                 <a class="btn btn-primary" href="\customer">Customer Details</a>
                 <a class="btn btn-primary" href="\accmanagement">Account Management</a>
